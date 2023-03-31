@@ -10,7 +10,7 @@ html {
   padding: 0;
 }
 body {
-  background-color: rgb(128, 128, 128);
+  background-color: rgb(255, 255, 255);
 }
 a {
   text-decoration: none;
@@ -24,7 +24,7 @@ button {
 nav {
   position: fixed;
   top: 0;
-  background: #ada8a8;
+  background: #fff5f5;
   width: 100vw;
 }
 
@@ -69,12 +69,12 @@ nav {
   width: 25px;
 }
 .Hero {
-  height: 80vh;
+  height: 90vh;
   background: linear-gradient(
       to right,
-      rgba(69, 69, 69, 0.648),
-      rgba(60, 60, 60, 0.431),
-      rgba(59, 59, 59, 0.644)
+      rgba(0, 0, 0, 0.648),
+      rgba(0, 0, 0, 0.431),
+      rgba(0, 0, 0, 0.644)
     ),
     url("photos/graduate.jpeg");
   height: 1000px;
@@ -154,6 +154,7 @@ nav {
 .services-img {
   display: flex;
   align-items: center;
+  
 }
 .servicesx {
   display: flex;
@@ -161,14 +162,15 @@ nav {
     max-width:300px; */
   height: 300px;
   width: 100px;
+  color: #000;
 }
 .card-container {
-  box-shadow: 0 4px 8px 0 rgba(90, 84, 84, 0.2);
+  box-shadow: 0 4px 8px 0 rgb(178, 178, 178);
   transition: 0.3s;
   align-items: center;
   display: flex;
   padding: 0 200px;
-  background-color: #353538;
+  background-color: #d3d3d3;
   gap: 50px;
 }
 .services-card {
@@ -215,7 +217,7 @@ nav {
   align-items: center;
   padding: 10px 15px;
   gap: 10px;
-  background: rgb(209, 208, 208);
+  background: rgb(237, 237, 237);
 }
 
 .search-bar > input {
@@ -248,4 +250,8 @@ nav {
 
 .solid-button:active {
   opacity: 100%;
+}
+.fontt{
+  color: black;
+
 }
